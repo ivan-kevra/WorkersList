@@ -24,7 +24,7 @@ export const AllWorkers = () => {
                   <Table.Cell>{w.name}</Table.Cell>
                   <Table.Cell>{w.job}</Table.Cell>
                   <Table.Cell>{w.hospitalDepartment}</Table.Cell>
-                  <Table.Cell>{w.isHeadOfDepartment ? 'Yes' : 'No'}</Table.Cell>
+                {w.isHeadOfDepartment &&  <Table.Cell>{w.isHeadOfDepartment ? 'Yes' : 'No'}</Table.Cell>}
                 </Table.Row>
               ))}
             </Table.Body>

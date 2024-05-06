@@ -4,7 +4,6 @@ import { Typography } from "../components/typography/Typography";
 import { workers } from "../data/data"
 
 
-
 export const Doctors = () => {
   return (
     <>

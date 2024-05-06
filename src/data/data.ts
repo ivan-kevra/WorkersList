@@ -2,24 +2,23 @@ export type WorkerType = {
     name: string
     hospitalDepartment: string
     job: JobType
-    isHeadOfDepartment?: boolean
+    isHeadOfDepartment?: 'yes' | 'no'
 }
 
 export type JobType = 'doctor' | 'nurse' 
-
 
 export const workers: WorkerType[] = [
     {
         name: 'John',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Alice',
         hospitalDepartment: 'Department B',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'Emily',
@@ -35,13 +34,13 @@ export const workers: WorkerType[] = [
         name: 'Michael',
         hospitalDepartment: 'Department C',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Sarah',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'Jessica',
@@ -57,13 +56,13 @@ export const workers: WorkerType[] = [
         name: 'Robert',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Olivia',
         hospitalDepartment: 'Department B',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'William',
@@ -79,13 +78,13 @@ export const workers: WorkerType[] = [
         name: 'James',
         hospitalDepartment: 'Department C',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Emma',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'Benjamin',
@@ -101,13 +100,13 @@ export const workers: WorkerType[] = [
         name: 'Joseph',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Mia',
         hospitalDepartment: 'Department B',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'Ethan',
@@ -123,13 +122,13 @@ export const workers: WorkerType[] = [
         name: 'Alexander',
         hospitalDepartment: 'Department C',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Harper',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'Daniel',
@@ -145,13 +144,13 @@ export const workers: WorkerType[] = [
         name: 'Matthew',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Emily',
         hospitalDepartment: 'Department B',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'David',
@@ -167,13 +166,13 @@ export const workers: WorkerType[] = [
         name: 'Andrew',
         hospitalDepartment: 'Department C',
         job: 'doctor',
-        isHeadOfDepartment: true
+        isHeadOfDepartment: 'yes'
     },
     {
         name: 'Sofia',
         hospitalDepartment: 'Department A',
         job: 'doctor',
-        isHeadOfDepartment: false
+        isHeadOfDepartment: 'no'
     },
     {
         name: 'Henry',
