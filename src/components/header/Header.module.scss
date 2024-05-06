@@ -1,0 +1,10 @@
+.buttons {
+    display: flex;
+    gap: 20px;
+    .active {
+      background: var(--Info-900);
+      color: var(--Light-100);
+    }
+
+  }
+

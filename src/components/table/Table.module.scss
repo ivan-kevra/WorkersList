@@ -1,0 +1,22 @@
+.table {
+    border-collapse: collapse;
+    color: var(--color-text-primary);
+    border: 1px solid var(--Dark-500);
+    border-radius: var(--border-radius-s);
+}
+    
+  .headCell {
+    padding: 6px 8px;
+    background-color: var(--Dark-500);
+    border-bottom: 1px solid var(--Dark-500);
+  }
+
+  .row {
+    border-bottom: 1px solid var(--Dark-500);
+  }
+  
+  .tableCell {
+    padding: 6px 24px;
+    background-color: var(--Dark-900);
+  }
+
