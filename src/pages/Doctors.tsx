@@ -25,7 +25,7 @@ export const Doctors = () => {
                   <Table.Cell>{w.name}</Table.Cell>
                   <Table.Cell>{w.job}</Table.Cell>
                   <Table.Cell>{w.hospitalDepartment}</Table.Cell>
-                  <Table.Cell>{w.isHeadOfDepartment ? 'Yes' : 'No'}</Table.Cell>
+                  <Table.Cell>{w.isHeadOfDepartment}</Table.Cell>
                 </Table.Row>
               ))}
             </Table.Body>
